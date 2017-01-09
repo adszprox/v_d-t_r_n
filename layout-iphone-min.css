@@ -1,0 +1,55 @@
+body {
+	-webkit-text-size-adjust: none;
+}
+
+#global-nav {
+	height: 1.8em;
+	padding: 12px 10px 5px 1px;
+	font-size: 100%;
+}
+
+#global-nav #search-input {
+	margin: -4px 0 0 10px;
+	padding: 3px;
+	width: 200px;
+}
+
+#global-nav #search-button-input {
+	width: 30px;
+	height: 26px;
+	margin: -4px -1px 0 7px;
+	background: #fec611 url(/resources/legacy/img/interface/bt-search-iphone.gif) no-repeat -2px -1px;
+}
+
+#sub-nav {
+	width: 100%;
+	padding: 12px 0 12px 0;
+}
+
+.slide dl dt {
+	height: 3.3em;
+}
+
+#ft {
+	font-size: 109%;
+	background: #fff;
+	padding: 0;
+}
+
+#ft-nav {
+	font-size: 100%;
+}
+
+#ft-sub-nav li#text-size, #ft-sub-nav li#increase-text, #ft-sub-nav li#decrease-text {
+	display: none;
+}
+
+.c-c-mobil {
+	display: initial;
+}
+.c-c-dsk {
+	display: none;
+}
+.vbv {
+	padding-left: 10px!important;
+}

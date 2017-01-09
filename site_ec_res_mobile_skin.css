@@ -1,0 +1,198 @@
+/* Elements avec largeur variable selon les ecrans */ 
+
+
+html, body, body.white, #doc4, .white #header,
+#header > .wrapper, #header > .wrapper > .content,
+.white .footer-section, #footer,  #footer .wrapper,
+#footer > .wrapper > .menu-container.content, .page-wrapper #bd { min-width: 100%; max-width: 100%; }
+
+
+html, body, body.white, #doc4 { overflow-x: hidden; }
+
+.white #header,
+#header > .wrapper, #header > .wrapper > .content,
+.white .footer-section, #footer,  #footer .wrapper,
+#footer > .wrapper > .menu-container.content { overflow: hidden; }
+	
+/* Elements caches de la version mobile */
+.white #header #logo img, #header #main-menu, .toolbar-section, #footer .vd-logo, #footer .copyright, a.arrow-gray {
+	display: none;
+}	
+ 	
+body.white, #doc4{
+   background-color: #292929;   
+}
+
+.white #header {
+    background-color: #080808;
+    background-image: none;
+    margin-top: -14px;
+    height: 0;
+}
+	
+#header #logo {
+    background: url("./vd-logo-yellow.png") no-repeat center -2px;
+    display: block;   
+    position: relative;
+    /*top: 5px;
+    left: 0px;*/
+    width: 100%;
+    height: 35px;
+    /*margin-left: 90px;*/
+}	
+
+.en #header #logo {
+    background: url("./vd-logo-yellow-en.png") no-repeat center -2px;	   
+}	
+	
+.white .footer-section {   		
+   	margin-top: 0;
+   	padding-top: 1px;
+}
+
+#footer {
+    padding-bottom: 0;
+}
+	
+#footer .wrapper {
+	background:none;	
+	margin: 0;
+}
+		
+#footer > .wrapper > .menu-container.content {
+	padding-top: 0px;
+}
+	
+#footer .menu ul  {
+   	width:300px;
+   	margin-left:auto;
+   	margin-right:auto;
+}
+
+.en #footer .menu ul  {
+   	width: 215px;
+}
+
+#footer .menu li {
+   	display: none;
+   	margin-top: 1em;
+   	padding: 8px 8px 12px 8px;
+}
+
+#footer .menu li a {
+   	text-decoration:none;
+}
+
+#footer .menu li:nth-child(4),
+#footer .menu li:nth-child(6),
+#footer .menu li.toolbar-button-lang {
+   	display: block;
+}
+	
+.toolbar-button-lang {
+	height: 16px;
+	line-height: 13px;
+	padding: 0 10px;
+	text-decoration: none;
+	border: none;
+	background: none;
+	margin-left: 0px;
+}
+	
+.page-wrapper #bd {
+    font-size: 0.8em;
+    margin: 30px 0 0 0;
+  	width: 100%;
+    min-height: 334px;
+	background: #c7c7c9 url(./background-degrade.jpg) no-repeat center top;
+}
+
+.page-wrapper #bd #content-main.content-main-smaller{
+	margin:0 10px;
+}
+
+#footer > .wrapper > .content, 
+#footer > .wrapper > .content, 
+section > .wrapper > .content, 
+#header > .wrapper > .content {
+	padding: 0;
+}
+
+#content-main-hd {
+    min-width: 98%;
+    max-width: 98%;
+}
+	
+#content-main-hd p {
+    padding: 0;
+}	
+	
+#content-main h1 {
+    font-size: 36px;
+    font-size: 8vw;
+}
+
+.content-main-int {
+    clear: both;
+    width: 98%;
+    font-size: 1.4em;
+}
+	
+form .txt-note {
+	min-width: 98%;
+	max-width: 98%;
+}
+
+#login-zone .login-box{
+	float:none;
+	width:100%;
+    border-bottom: 10px solid;
+}
+
+#login-zone .create-box{
+	margin-left:0;
+	background:none;
+}
+
+.page-login#doc4{
+   background-color: white;   
+}
+
+#login-zone h2{
+    padding: 1em 1em 3em 1em;
+}
+
+#login-zone .create-box .wrapper {
+    padding: 0 3em 3em 3.167em;
+}
+
+#login-zone .create-box li{
+	font-size:0.8rem;
+}
+
+#login-zone .login-box label{
+	font-size:1rem;
+}
+
+#login-zone a{
+	font-size:0.8rem;
+}
+
+
+#content-main p{
+	font-size:0.8rem;
+}
+
+#login-zone .create-box .subtitle {
+	margin-bottom:15px
+}
+
+.c-c-mobil {
+	display: initial;
+}
+.c-c-dsk {
+	display: none;
+}
+.vbv {
+	padding-left: 10px!important;
+}

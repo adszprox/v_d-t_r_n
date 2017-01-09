@@ -1,0 +1,135 @@
+/* 
+
+Title:      site_ec_res_vcom_skin.css
+Author:     vd.com
+Updated:    August 2011
+
+Content:	Over-ride JAWR css classes 
+
+*/
+
+/* Basic layout elements
+**************************************/
+.page-wrapper #bd {
+	margin: 0 auto;
+	max-width: 80em;
+	width: 80em;
+}
+.page-wrapper #bd #content-main{
+	float: none;
+    padding: 0;
+    width: auto;
+	margin: 0 0px 0 5px;
+}
+.page-wrapper #bd #content-main.content-main-smaller{
+	width:auto !important;
+	margin: 0 10px 0 15px;
+}
+.white .page-wrapper hgroup h2 {
+    font-size: 2.08333em;
+    margin-bottom: 0;
+}
+
+
+/* zik
+**************************************/
+.zik .page-wrapper #bd {
+	margin: 0;
+	max-width: 100%;
+	width: 100%;
+	padding: 0;
+}
+.zik .black > .page-wrapper{
+	background-position: center -200px;
+}
+.zik .page-wrapper #bd #content-main{
+	float: none;
+    padding: 0;
+    width: 100%;
+	margin: 0;
+}
+.zik .col-left,
+.zik .col-right{
+	float: left;
+	width: 40%;
+}
+.zik .col-left{
+	width: 60%;
+}
+.zik .first-section h1{
+	margin: 1em 0 0.75em;
+}
+.zik .center-image{
+	text-align: center;
+}
+.zik .black .content,
+.zik .black .content h2{
+	color: #fff;
+}
+.zik #content-main .black .content a.icon-yellow-arrow{
+	color: #FAB209;
+	display: block;
+}
+.zik #content-main .black .content a:hover{
+	text-decoration: none !important;
+}
+.zik .footer-section {
+    padding-top: 0;
+}
+.zik .second-section,
+.zik .third-section{
+	padding-top: 4em;
+	padding-bottom: 2em;
+	border-bottom: 1px solid #595959;
+}
+.zik .second-section{
+	background: url("/resources/global/images/promos/zik/splitter-vertical.png") no-repeat 55% center;
+}
+	
+.zik .second-section .col-left{
+	width: 55%;
+}
+.zik .second-section .col-left h2,
+.zik .second-section .col-left p{
+	margin-right: 50px;
+}
+.zik .second-section .col-right{
+	width: 45%;
+}
+.zik .second-section .logged-in-zone{
+	padding-left: 80px;
+}
+.zik .second-section .col-left h2,
+.zik .third-section h2{
+	font-size: 2.666em;
+	font-family: 'BlenderProHeavy',Arial,sans-serif;
+}
+.zik .third-section{
+	border-bottom-width: 0px;
+}
+.zik #content-main .black .content .third-section a{
+	color: #FAB209;
+}
+.zik .third-section .col-left,
+.zik .third-section .col-right{
+	width: 50%;
+}
+.zik #content-main .third-section .col-right li {
+	list-style: disc;
+	margin: 1.1em;
+}
+.zik #content-main .foot-note .condition {
+    color: #CCCCCC;
+    text-decoration: none;
+}
+/* promo-500mo-1go.jsp
+**************************************/
+.mobile-promo{
+	padding: 1em 0 0 34px;
+	background: transparent url(/resources/global/images/icons/dollar.png) no-repeat 2px 14px;
+}
+/* lien limite conso
+**************************************/
+.limite-conso-promo{
+	margin-bottom: 20px !important;
+}
